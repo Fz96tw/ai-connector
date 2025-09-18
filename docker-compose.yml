@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   ollama:
-    image: fz96tw/llama3.2-1b:latest  # prebuilt Ollama image
+    image: fz96tw/llama3.2-1b:v1  # prebuilt Ollama image
     container_name: llama
     ports:
       - "11434:11434"           # default Ollama API port
